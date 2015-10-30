@@ -19,6 +19,12 @@ html {
     width: 100px;
 }
 
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
@@ -93,5 +99,15 @@ of those sections to manage the look and feel of the site. */
     left: 50%;
     margin-left: -70px !important;  /* 70% of your logo width */
     display: block;
+    }
+
+    .navbar .navbar-collapse .pull-left {
+        padding-left: 330px;
+        float: left;
+    }
+
+    .navbar .navbar-collapse .pull-right {
+        padding-right: 320px;
+        float: right;
     }
 }
