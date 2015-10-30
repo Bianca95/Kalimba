@@ -25,11 +25,12 @@ html {
     letter-spacing: 2px;
 }
 
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-/*Full Slider*/
+/*Full slider*/
 .carousel,
 .item,
 .active {
@@ -51,15 +52,7 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
     -o-background-size: cover;
 }
-
-/*Full slider ending */
-
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
+/*End of full slider*/
 
 .about-section {
     height: 100%;
@@ -82,6 +75,7 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -97,17 +91,17 @@ of those sections to manage the look and feel of the site. */
     .navbar-brand {
     position: absolute;
     left: 50%;
-    margin-left: -70px !important;  /* 70% of your logo width */
+    margin-left: -70px !important;  /* 50% of your logo width */
     display: block;
     }
 
-    .navbar .navbar-collapse .pull-left {
-        padding-left: 330px;
-        float: left;
+    .navbar .navbar-collapse .pull-left{
+      padding-left: 330px;
+      float: left;
     }
 
-    .navbar .navbar-collapse .pull-right {
-        padding-right: 320px;
-        float: right;
+    .navbar .navbar-collapse .pull-right{
+      padding-right: 320px;
+      float: right;
     }
 }
