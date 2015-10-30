@@ -87,4 +87,11 @@ of those sections to manage the look and feel of the site. */
     .top-nav-collapse {
         padding: 0;
     }
+
+    .navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -70px !important;  /* 70% of your logo width */
+    display: block;
+    }
 }
